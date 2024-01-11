@@ -1,0 +1,170 @@
+
+body {
+    font-family: 'Nunito';
+    margin: 0;
+    width: 1728px;
+    height: 1999px;
+    border-radius: 20px;
+    background: #0C151D;        
+}
+h2{
+    display: flex;
+    width: 631px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    text-align: center;
+    width: 372px;
+    color: #F1F2F4;
+    font-family: Poppins;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+h3{
+    color: #A3ABB2;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.main {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    justify-items: center;
+}
+
+.brochure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin: 0% 10% 0% 10%;
+}
+
+.more-info {
+    display: grid;
+    background-color: var(--light-purple);
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+    width: 372px;
+    color: #F1F2F4;
+    font-family: Poppins;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.text1{
+    color: #A3ABB2;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.img1{
+    border-radius: 20px;
+    background: #0C151D;
+    width: 192px;
+    height: 192px;
+    flex-shrink: 0;
+    border-radius: 192px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    
+        
+}
+.img2{
+    width: 362px;
+    height: 226px;
+    flex-shrink: 0;
+}
+.img3{
+    width: 362px;
+    height: 226px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(<path-to-image>), lightgray 0% 0% / 21.36824280023575px 21.36824280023575px repeat;
+
+    backdrop-filter: blur(2px);
+}
+button{
+    width: 290px;
+    height: 80px;
+    flex-shrink: 0;
+}
+
+
+.primary-button {
+    width: 290px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFE071;
+    width: 182.313px;
+    color: #3D3D3D;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.531px;
+}
+.primary-button2 {
+    width: 290px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #171F26;
+    width: 182.313px;
+    color: #A3ABB2;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.531px;
+    
+    
+}
+.boton{
+    color: #A3ABB2;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.5px;
+}
+
+
+
+
+.primary-button img {
+    width: 26.979px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
